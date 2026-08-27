@@ -1,16 +1,37 @@
-# React + Vite
+# Musabbir Turag — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**🔗 Live:** [reactportfolio-seven-tau.vercel.app](https://reactportfolio-seven-tau.vercel.app/)
 
-Currently, two official plugins are available:
+Personal portfolio website built with React + Vite. Includes my projects, competitive programming profiles, experience, and contact info.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- React 18 + Vite
+- Plain CSS (no UI library)
+- Deployed on Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Sections
 
-## Expanding the Oxlint configuration
+- Hero (typewriter animation)
+- About
+- Skills
+- Experience
+- Education
+- Projects
+- Competitive Programming (CF, CC, LC)
+- Achievements (ICPC, intra-uni contests)
+- Contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Features
+
+- Dark / Light mode toggle
+- Mobile responsive
+- Smooth scroll + hover animations
+- All data pulled from real CV — no placeholder content
